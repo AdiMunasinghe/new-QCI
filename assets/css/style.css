@@ -1680,12 +1680,22 @@ hr {
   color: var(--white-color);
 }
 
+.cs_primary_color {
+  color: #ffff;
+}
+
+.cs_primaryy_color {
+  padding: 6px;
+  border-radius: 100%;
+  background-color: #ffff;
+}
+
 .cs_white_color_8 {
   color: rgba(255, 255, 255, 0.8);
 }
 
 .cs_heading_color {
-  color:   ;
+  color: var(--heading-color);
 }
 
 .cs_body_color {
@@ -1701,7 +1711,7 @@ hr {
 }
 
 .cs_heading_bg {
-  background-color: #307bc4;
+  background-color: #141346;
 }
 
 .cs_secondary_bg {
@@ -2798,7 +2808,7 @@ label {
 }
 .cs_accordian.active.cs_type_1 .cs_accordian_toggle {
   background-color: var(--heading-color);
-  color: var(--white-color);
+  color: #141346;
 }
 .cs_accordian.active.cs_type_1 .cs_accordian_body {
   text-decoration: underline;
@@ -4510,6 +4520,7 @@ a.ui-button:active,
 .cs_site_header.cs_style_1 .cs_top_header_in {
   display: -webkit-box;
   display: -ms-flexbox;
+  background-color: #141346;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -4735,6 +4746,7 @@ a.ui-button:active,
 }
 
 .cs_main_header {
+  background-color: #141346;
   position: relative;
 }
 .cs_main_header .container-fluid {
@@ -5227,7 +5239,7 @@ a.ui-button:active,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #307bc4;
+  background-color: #141346;
   gap: 40px;
   padding: 140px 0 90px 0;
 }
