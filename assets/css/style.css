@@ -1684,6 +1684,10 @@ hr {
   color: #ffff;
 }
 
+.cs_secondary_color {
+  color: #141346;
+}
+
 .cs_primaryy_color {
   padding: 6px;
   border-radius: 100%;
